@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css?family=Faster+One');
+@import url(https://fonts.googleapis.com/css?family=Faster+One);
+
+
+@font-face {
+    font-family: jeff;
+    src: url(fonts/skull.ttf);
+}    
+
+@font-face {
+    font-family: fire;
+    src: url(fonts/fire.ttf);
+}   
+
+
+
+h1 {
+	font-size: 70px;
+	text-align: center;
+	font-family: 'Faster One';
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+p{
+	font-size: 40px;
+	text-align: center;
+	font-family: jeff;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+
+
+a {
+  text-align: center;
+  font-family: fire;
+  font-size: 50px;
+  color: red;
+  padding-left: 650px;
+}
+
+a.count {
+padding-left: 900px;
+}
+
+body.rock {
+  background-image: url(pics/rockk.gif);
+}
+
+body.summer {
+  background-image: url(pics/beach.gif);
+}
+
+body.america {
+  background-image: url(pics/flag.gif);
+}
