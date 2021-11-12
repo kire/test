@@ -24,6 +24,8 @@ h1,h2,h3,h4,h5,h6 {
             color: #ccc;
         }
 
+      
+
         h1 .sub.header {
             margin-top: 0;
             padding-top: 0;
@@ -32,6 +34,39 @@ h1,h2,h3,h4,h5,h6 {
             font-size: 18px;
 
         }
+
+
+        .wrapper {
+  height: 10vh;
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+        h1 .sub.header  {
+  width: 22ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+ font-size: 18px;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: #8c66cf;
+  }
+}
+
 
         .container {
             margin: 20px auto;
@@ -61,6 +96,14 @@ h1,h2,h3,h4,h5,h6 {
             background: #8c66cf;
         }
 
+        .btn:hover {
+           
+            box-shadow: 20px 50px 100px rgba(89, 36, 100, 1.5);
+            
+            border: 1px solid #FFFF33;
+          
+        }
+
         .btn-basic {
             background: transparent;
             border: 1px solid #8c66cf;
@@ -79,4 +122,19 @@ h1,h2,h3,h4,h5,h6 {
             border-left: 1px solid #a98ddb;
             margin-top: 100px;
             text-shadow: 0 1px 1px rgba(0,0,0,0.6);
+        }
+
+         code {
+            color: #a98ddb;
+        }
+
+        .text {
+          margin-left: 200px;
+
+        } 
+
+     .footer {
+            background: #444;
+            padding: 20px 0 30px;
+            text-align: center;
         }
